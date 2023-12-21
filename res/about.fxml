@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AboutController">
+   <children>
+      <ImageView fitHeight="100.0" fitWidth="100.0" mouseTransparent="true" opacity="0.63" pickOnBounds="true" preserveRatio="true" rotate="45.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@app_icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="69.0" layoutY="24.0" text="Шаблон приложения на Kotlin" AnchorPane.leftAnchor="69.0" AnchorPane.topAnchor="24.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="okButton" defaultButton="true" mnemonicParsing="false" prefWidth="80.0" text="OK" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <Label fx:id="version" alignment="TOP_LEFT" layoutX="55.0" layoutY="58.0" prefHeight="70.0" prefWidth="213.0" text="Label" />
+   </children>
+</AnchorPane>
